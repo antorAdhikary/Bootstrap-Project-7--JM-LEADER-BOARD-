@@ -1,0 +1,59 @@
+body {
+    background: #f3f1ff;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.bg-radius {
+    border-radius: 8px;
+}
+
+/* HEAD PART */
+
+header {
+    margin-bottom: 120px;
+}
+nav {
+    background: rgb(81, 81, 239);
+}
+.navbar-img,
+.person-img {
+    width: 40px;
+}
+
+/* BLOG PART */
+
+.blog-img {
+    width: 180px;
+}
+
+/* CARD PART */
+.card {
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card:hover {
+    box-shadow: none;
+}
+.card .card-bottom {
+    margin: 5px 0;
+}
+.card .rating {
+    font-size: 11px;
+    margin-top: 2px;
+}
+.card .time {
+    
+    font-size: 11px;
+    border: 1px solid brown;
+    background: rgb(250, 202, 202);
+    padding: 2px 4px;
+    border-radius: 20px;
+}
